@@ -1,0 +1,6 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+celery>=5.2.7
+redislite>=1.0.6
+pillow>=9.0.0
+websockets>=10.0
