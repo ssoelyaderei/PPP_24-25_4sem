@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from .routers import users, posts
 from .database import Base, engine
 
-# создаём таблицы
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Blog API (4lab)")
